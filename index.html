@@ -1,30 +1,187 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>my first html</title>
 	<meta charset="utf-8">
-	<meta type="text/css">
-	h1 {color:}
+	<title>Curriculum Vitae</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<style type="text/css">
+		
+		body {
+				font-family: 'Open Sans', sans-serif;
+				display: block;
+		}
+
+		#main {
+			    margin: 0 auto;
+				width: 60%;
+		}
+
+		#top_bar {
+				background-color: rgb(64, 79, 90);
+				color: rgb(255, 255, 255);
+				text-align: center;
+				padding-top: 10px;
+				padding-bottom: 10px;
+		}
+
+		#left {
+				background: linear-gradient(to right, rgb(70, 70, 70), rgb(110, 110, 110));
+				float: left;
+				width: 30%;
+				color: rgb(255, 255, 255);
+				padding: 2%;
+
+		}
+
+		h2 {
+				font-size: 36px;
+				margin-bottom: 5px;
+		}
+
+		#left_top {
+				border-bottom: 2px solid yellow;
+		}
+
+		#avatar {
+				text-align: center;
+		}
+
+		#avatar img {
+				border: 2px solid rgb(211, 211, 211);
+				border-radius: 50px;
+				width: 150px;
+ 				height: 150px;
+		}
+
+		h3 {
+				text-align: center;
+				text-decoration: underline;
+				font-size: 20px;
+		}
+
+		#left ul {
+				padding-left: 33%;
+				font-size: 20px;
+		}
+
+		a {
+				color: rgb(92, 165, 229);
+		}
+
+		#heroin {
+				background-color: rgb(243, 168, 59);
+				border-radius: 10px;
+				width: 80%;
+				text-align: center;
+		}
+
+		#alcohol {
+				background-color: rgb(44, 116, 216);
+				border-radius: 10px;
+				width: 40%;
+				text-align: center;
+		}
+
+		#pervintin {
+				background-color: rgb(55, 125, 34);
+				border-radius: 10px;
+				width: 65%;
+				text-align: center;
+		}
+
+		#right {
+				float: left;
+				padding-left: 10px;
+				width:64%;
+				font-size: 26px;
+				padding-top: 20px;
+		}
+
+		#heading {
+				font-weight: bold;
+				color: rgb(29, 75, 134);
+		}
+
+		#right_line p {
+				margin-top: 5px;
+				color: rgb(29, 75, 134);
+				font-size: 22px;
+		}
+
+		#right_line {
+				border-bottom: 2px solid rgb(49, 129, 247);
+				width: 95%;
+		}
+
+		#right_line ul {
+				position: relative;
+				margin-left: -30px;
+				margin-top: 5px;
+				color: rgb(29, 75, 134);
+				font-size: 22px;
+				list-style: none;
+		}
+
+		#right ul li:before {
+   			 	content: "-";
+   				position: relative;
+   			 	left: -5px;
+   		}
+
+	</style>
 </head>
 <body>
-	<h1> stdfdfdf dfdfd ddddd</h1>
-	<h2>rrrrr tttt ttttt</h2>
-	<p>edddfdfdfkd<br>fdlfkllllllk
-		llll<u><b>lkklkklklkkllk</b></u>llll;
-		llkklllkkll &#9773;kllkllkdkdlkfkvldmvdmvdmvkdm<br>vkdm</p>
-		<ul><li>gtgtgtgtgtgtg </li>></ul>
-
-<table>
-	<tr>
-		<td>fddfdfd </td>
-	</tr>
-	<tr>
-		<ul>
-			<li>cdcdcdvdv</li>
-			<li>fdfdfddfd</li>
-		</ul>
-	</tr>
-</table>
-
+	<div id="main">
+		<div id="top_bar">
+			<h1>Curriculum vitae</h1>
+		</div>
+		<div id="content">
+			<div id="left">
+				<div id="left_top">
+					<div id="avatar">
+						<img src="avatar.jpeg">
+					</div>
+					<h2>Eskobar Dezomorfin</h2>
+				</div>
+				<div id="left_bottom">
+					<h3>Love:</h3>
+					<p id="heroin">Heroin</p>
+					<p id="alcohol">Alcohol</p>
+					<p id="pervintin">Pervintin</p>
+					<h3>Contacts:</h3>
+					<ul>
+						<li><a href="https://www.facebook.com">Facebook</a></li>
+						<li><a href="https://www.youtube.com/watch?v=Eyz77oJ2HJ0">Youtube</a></li>
+						<li><a href="https://www.vk.com">VK</a></li>
+					</ul>
+				</div>
+				
+			</div>
+			<div id="right">
+				<div id="right_line">
+					<span id="heading">Birth Date:</span>
+					<p>09.05.1979</p>
+					<span id="heading">Birth Place:</span>
+					<p>Kramatorsk</p>	
+				</div>
+				<div id="right_line">
+					<span id="heading">Skills:</span>
+					<ul>
+						<li>Medecine</li>
+						<li>Pharmaceutics</li>
+						<li>Vocal</li>
+					</ul>
+				</div>
+				<div id="right_line">
+					<span id="heading">About Me:</span>
+					<ul>
+						<li>Alcoholic</li>
+						<li>Musician</li>
+						<li>Lifeburner</li>
+					</ul>	
+				</div>	
+			</div>
+		</div>	
+	</div>
 </body>
 </html>
